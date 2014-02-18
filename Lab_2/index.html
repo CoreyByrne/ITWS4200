@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://layout.jquery-dev.net/lib/js/jquery-latest.js"></script>
+		<script src="suchScript.js"> </script>
+		<style>
+			@font-face {
+				font-family: ComicSans;
+				src: url('comic.ttf');
+			}
+			.back {
+				background: no-repeat center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+			body{
+				background-color:#FFFFCC;
+			}
+			#center {
+				position: absolute;
+				top:0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				
+				margin: auto;
+				height:800px;
+				width:800px;
+				background-image:url('doge/doge-regular.png');
+			}
+			.item {
+				display:inline-block;
+				position: absolute;
+				font-family:ComicSans;
+				font-size:50px;
+				margin:0;
+				padding:0;
+			}
+			#info {
+				position: absolute;
+				top:600px;
+				left: 0;
+				
+				text-align:center;
+				width:100%; 	
+				color:black;
+				font-family:ComicSans;
+				font-size:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="center"></div>
+		<div id="info"></div>
+	</body>
+</html>

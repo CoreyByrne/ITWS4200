@@ -1,0 +1,125 @@
+{
+	"temp": {
+		"below0": {
+			"winter":["very"],
+			"climate change":["much","so","such"],
+			"ridiculous":["so","very"],
+			"numb":["so","very"],
+			"freeze":[],
+			"ice":["so","very","such"],
+			"shiver":["so","such"],
+			"brrrr":[]
+		},
+		"0to32": {
+			"ice":["so","very","such"],
+			"chill":["very", "so"],
+			"shiver":["so","such"],
+			"brr":[],
+			"below freezing point":["much","so","very"],
+			"frost":["so","very"]
+		}, 
+		"32to45": {
+			"cold":["very","so"],
+			"shiver":["such"],
+			"slightly above freezing":["much","so","very"],
+			"seeing breathe":["so","very","much"],
+			"frost":[],
+			"coat":[]
+		},
+		"45to60": {
+			"lukewarm":[],
+			"weather":["so","much"],
+			"average temperature":[],
+			"okay":["so"],
+			"whatever":[]
+		},
+		"60to80": {
+			"warm":["very","so"],
+			"normal":[],
+			"sweat":["so","very","such"],
+			"heat":[],
+			"t-shirt":["so","such"]
+		},
+		"above80": {
+			"hot":["very","so"],
+			"burn":[],
+			"global warming":["so","very","much"],
+			"melt":[],
+			"boiling":[]
+		}
+	},
+	"weather": {
+		"rain-day": {
+			"rain": ["so","very","such"],
+			"cloud": [],
+			"wet":["so"],
+			"raindrop":["so","much", "such"]
+		},
+		"rain-night": {
+			"rain": ["so","very","such"],
+			"cloud": [],
+			"wet":["so"],
+			"raindrop":["so","much", "such"]
+		},
+		"clear-day": {
+			"clear":["so"],
+			"sun":["so","very","such"],
+			"bright":["so","very"],
+			"amaze":[],
+			"lovely":["very"]
+		},
+		"clear-night": {
+			"clear":["so"],
+			"moon":["so","such"],
+			"night":["very"],
+			"amaze":[],
+			"lovely":["very"]
+		},
+		"snow-day": {
+			"snow":["so","such"],
+			"cloud":[],
+			"white":["so"],
+			"wet":["so"],
+			"snowflake":["so","much", "such"]
+		},
+		"snow-night": {
+			"snow":["so","such"],
+			"cloud":[],
+			"white":["so"],
+			"wet":["so"],
+			"snowflake":["so","much", "such"]
+		},
+		"fog-day": {
+			"fog":[],
+			"dense":["so"],
+			"low visibilitY":["so","very","much"]
+		},
+		"fog-night": {
+			"fog":[],
+			"dense":["so"],
+			"low visibilitY":["so","very","much"]
+		},
+		"cloudy-day": {
+			"cloud":[],
+			"dark":["very","so"],
+			"boring":["so"]
+		},
+		"cloudy-night": {
+			"cloud":[],
+			"dark":["very","so"],
+			"boring":["so"]
+		},
+		"partly-cloudy-day": {
+			"cloud":[],
+			"sun":["so","very","such"],
+			"sky":["so"],
+			"cumulus":["so","very","such"]
+		},
+		"partly-cloudy-night": {
+			"cloud":[],
+			"moon":["so","such"],
+			"sky":["so"],
+			"cumulus":["so","very","such"]
+		}
+	}
+}

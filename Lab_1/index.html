@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://layout.jquery-dev.net/lib/js/jquery-latest.js"></script>
+		<script src="js.js"></script>
+		<style>
+			#feed{
+				float:left;
+			}
+			#messages {
+				height:250px;
+				width:700px;
+				overflow:hidden;
+				margin:0;
+				padding-top:30px;
+				padding-left:10px;
+				padding-right:10px;
+				background-color:rgb(166, 157, 195);
+				-webkit-border-top-right-radius:20px;
+				-webkit-border-top-left-radius:20px;
+			}
+			.message {
+				list-style:none;
+				height:50px;
+				border:2px;
+				border-color:blue;
+				background-color:white;
+			}
+			img {
+				height:40px;
+				display:inline;
+				-webkit-border-radius:20px;
+			}
+			.message_text {
+				display:inline-block;
+				height:100%;
+				vertical-align:top;
+				width:600px;
+				padding-left:2em;
+			}
+			#bottom{
+				display:inline-block;
+				width:700px;
+				height:30px;
+				padding-left:10px;
+				padding-right:10px;
+				background-color:rgb(166, 157, 195);
+				-webkit-border-bottom-right-radius:20px;
+				-webkit-border-bottom-left-radius:20px;
+			}
+			#tags {
+				float:left;
+			}
+			#hashtags {
+				margin:0;
+				height:18.2em;
+				overflow:hidden;
+			}
+			.hashtag {
+				padding-top:.25em;
+				padding-bottom:.25em;
+				padding-left:30px;
+				padding-right:30px;
+				margin:1px;
+				width:200px;
+				list-style:none;
+				background-color:rgb(166, 157, 195);
+				-webkit-border-radius:20px;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<section id="feed">
+			<ul id="messages"></ul>
+			<div id="bottom"></div>
+		</section>
+		<section id="tags">
+			<ul id="hashtags"></ul>
+		</section>
+	</body>
+</html>
